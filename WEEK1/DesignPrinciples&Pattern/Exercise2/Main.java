@@ -1,4 +1,4 @@
-// Main.java
+// Factory Method Pattern Example
 public class Main {
     public static void main(String[] args) {
         DocumentFactory wordFactory = new WordDocumentFactory();
