@@ -1,0 +1,2 @@
+git checkout GitNewBranch
+Switched to branch 'GitNewBranch'

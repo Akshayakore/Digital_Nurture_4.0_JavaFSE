@@ -1,0 +1,1 @@
+p4merge file.txt (opened in GUI, showing side-by-side comparison)

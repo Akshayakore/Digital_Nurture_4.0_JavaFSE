@@ -1,0 +1,38 @@
+$ git init
+Initialized empty Git repository in GitDemo2/.git/
+
+$ ls
+debug.log  log/  .gitignore
+
+$ cat .gitignore
+*.log
+log/
+
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+
+# Note: debug.log and log/ are not shown because they are ignored
+
+$ git add .gitignore
+
+$ git commit -m "Added .gitignore to ignore .log files and log folder"
+[master (root-commit) abc1234] Added .gitignore to ignore .log files and log folder
+ 1 file changed, 2 insertions(+)
+ create mode 100644 .gitignore
+
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+# Verifying ignored files:
+$ git check-ignore debug.log
+debug.log
+
+$ git check-ignore log/trace.log
+log/trace.log

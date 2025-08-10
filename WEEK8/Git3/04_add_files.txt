@@ -1,0 +1,6 @@
+echo 'Sample content' > file.txt
+git add file.txt
+git commit -m 'Added file.txt'
+[GitNewBranch abc1234] Added file.txt
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file.txt

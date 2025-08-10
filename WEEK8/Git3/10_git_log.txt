@@ -1,0 +1,4 @@
+git log --oneline --graph --decorate
+* def5678 (HEAD -> master) Added file.txt
+* abc1234 (GitNewBranch) Added file.txt
+* 1234567 Initial commit
